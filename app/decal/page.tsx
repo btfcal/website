@@ -3,14 +3,14 @@ import { getMarkdownContent } from "@/lib/md"
 export default async function DeCal() {
 	const {
 		jsx,
-		data: { semester, application_url },
+		data: { title, description, semester, application_url },
 	} = await getMarkdownContent("decal")
 
 	return (
 		<div className="container py-12 px-8 mx-auto">
-			<h1 className="title text-primary mb-4">DeCal</h1>
+			<h1 className="title text-primary mb-4">{title}</h1>
 			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
-				1 founder. 30 students. Every week.
+				{description}
 			</p>
 			{application_url ? (
 				<a
@@ -24,7 +24,7 @@ export default async function DeCal() {
 					Check back to apply for {semester}!
 				</p>
 			)}
-			<div className="markdown">{jsx}</div>
+			<div className="markdown my-12">{jsx}</div>
 		</div>
 	)
 }

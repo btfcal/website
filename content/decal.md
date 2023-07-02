@@ -1,8 +1,17 @@
 ---
 title: DeCal
+description: 1 founder. 30 students. Every week.
 semester: Fall 2023
 application_url: null
 ---
+
+Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.edu/about/decal-program) that hosts founders, investors, and innovators for intimate, no-bullshit conversations that inspire students to build companies.
+
+## Format
+
+We give speakers the flexibility to share their stories and advice in whatever format they choose, so each session is unique. But generally, there’s a 15 minute fireside chat for the guest to share their journey followed by a freeform conversation with the class.
+
+Classes aren’t recorded, which we’ve found encourages guests to be more candid and students to be more engaged.
 
 ## In The Press
 
@@ -10,7 +19,7 @@ application_url: null
 - **[‘Dream, build and start up’: Exploring UC Berkeley’s culture of entrepreneurship](https://www.dailycal.org/2018/08/08/dream-build-start-exploring-uc-berkeleys-culture-entrepreneurship/)** -- The Daily Californian
 - **[Origin stories at The House](https://engineering.berkeley.edu/news/2017/03/origin-stories-at-the-house/)** -- Berkeley Engineering
 
-## Past Speakers
+## Past Guests
 
 | Name                | Company                         | Semester    |
 | ------------------- | ------------------------------- | ----------- |
