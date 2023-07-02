@@ -1,8 +1,9 @@
 import Footer from "@/components/footer"
 import "./globals.css"
 import Navbar from "@/components/navbar"
+import { Metadata } from "next"
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: "Build the Future",
 	description: "UC Berkeley’s student-run entrepreneurship hub.",
 }
