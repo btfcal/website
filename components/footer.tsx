@@ -1,5 +1,6 @@
 import socials from "@/data/social.json"
 import Logo from "./logo"
+import Image from "next/image"
 
 export default function Footer() {
 	return (
@@ -13,16 +14,16 @@ export default function Footer() {
 				</p>
 			</div>
 			<div className="flex gap-4 p-4 rounded-lg">
-				{socials.map((social) => (
+				{socials.map(({ link, image, name }) => (
 					<a
-						key={social.link}
+						key={link}
 						className="social"
-						href="{{ .link }}"
+						href={link}
 						target="_blank"
 						rel="noopener"
-						title="{{ .name }}"
+						title={name}
 					>
-						Link
+						<Image src={image} alt={name} width={24} height={24} />
 					</a>
 				))}
 			</div>
