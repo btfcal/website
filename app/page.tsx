@@ -1,11 +1,45 @@
 import Subscribe from "@/components/subscribe"
 import speakers from "@/data/speakers.json"
 import Image from "next/image"
+import withDelian from "@/public/images/decal/with-delian.jpg"
+import decal from "@/public/images/decal/decal.png"
+import basesCollab from "@/public/images/coworking/bases-collab.jpg"
+
+function Photos() {
+	return (
+		<div className="items-start gap-12 mt-8 -z-10 max-w-full flex">
+			<Image
+				src={withDelian}
+				alt="Picture of the class with Delian Asparouhov"
+				width="2048"
+				height="1536"
+				placeholder="blur"
+				className="rounded-lg shadow-xl w-96 h-48 object-cover -rotate-6 transform translate-y-8 hidden lg:block"
+			/>
+			<Image
+				src={decal}
+				alt="Picture of students in a classroom with a guest speaker in front of them"
+				width="1116"
+				height="624"
+				placeholder="blur"
+				className="rounded-lg shadow-xl w-96 h-48 object-cover -rotate-1 transform translate-y-8 hidden sm:block"
+			/>
+			<Image
+				src={basesCollab}
+				alt="Picture of a group of students working together in a coworking space"
+				width="2048"
+				height="1536"
+				placeholder="blur"
+				className="rounded-lg shadow-xl w-96 h-48 object-cover rotate-2 transform translate-y-8"
+			/>
+		</div>
+	)
+}
 
 export default function Home() {
 	return (
 		<main>
-			<section className="container py-12 px-8 mx-auto flex flex-col items-start sm:items-center sm:text-center">
+			<section className="container pt-12 px-8 mx-auto flex flex-col items-start sm:items-center sm:text-center">
 				<a
 					href="https://happy-lobster-238.notion.site/Patent-Pending-0349478eef8a40d4aedef068bd81bead"
 					className="bg-accent text-sm px-4 py-1 rounded-full font-bold text-slate-700 hover:translate-x-2 transform transition-all duration-500 whitespace-nowrap"
@@ -25,8 +59,9 @@ export default function Home() {
 					at Berkeley.
 				</p>
 				<Subscribe />
+				<Photos />
 			</section>
-			<div className="border-t py-24 px-8">
+			<div className="border-t py-24 px-8 bg-white z-10">
 				<section className="max-w-3xl mx-auto">
 					<div className="flex flex-col md:flex-row items-baseline gap-2 md:gap-4 mb-8 md:mb-4">
 						<p className="text-xl md:text-2xl text-slate-700">Speaker Series</p>
