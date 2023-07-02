@@ -1,13 +1,13 @@
-import { getMarkdownContent } from "@/lib/md"
+import { getMarkdocContent } from "@/markdoc/content"
 
 export default async function DeCal() {
 	const {
 		jsx,
 		data: { title, description, semester, application_url },
-	} = await getMarkdownContent("decal")
+	} = await getMarkdocContent("decal")
 
 	return (
-		<div className="container py-12 px-8 mx-auto">
+		<div className="container py-12 px-8 max-w-prose mx-auto">
 			<h1 className="title text-primary mb-4">{title}</h1>
 			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
 				{description}

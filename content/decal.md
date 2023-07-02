@@ -7,6 +7,8 @@ application_url: null
 
 Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.edu/about/decal-program) that hosts founders, investors, and innovators for intimate, no-bullshit conversations that inspire students to build companies.
 
+{% figure src="/images/decal/with-ev.jpg" title="A class with Ev Williams, co-founder of Twitter and Medium." /%}
+
 ## Format
 
 We give speakers the flexibility to share their stories and advice in whatever format they choose, so each session is unique. But generally, there’s a 15 minute fireside chat for the guest to share their journey followed by a freeform conversation with the class.
@@ -15,9 +17,17 @@ Classes aren’t recorded, which we’ve found encourages guests to be more cand
 
 ## In The Press
 
-- **[The best Silicon Valley class money can’t buy](https://www.sfexaminer.com/news/the-best-silicon-valley-class-money-cant-buy/)** -- The San Francisco Examiner
-- **[‘Dream, build and start up’: Exploring UC Berkeley’s culture of entrepreneurship](https://www.dailycal.org/2018/08/08/dream-build-start-exploring-uc-berkeleys-culture-entrepreneurship/)** -- The Daily Californian
-- **[Origin stories at The House](https://engineering.berkeley.edu/news/2017/03/origin-stories-at-the-house/)** -- Berkeley Engineering
+> [The best Silicon Valley class money can’t buy](https://www.sfexaminer.com/news/the-best-silicon-valley-class-money-cant-buy/)
+
+The San Francisco Examiner {% class="text-sm" %}
+
+> [‘Dream, build and start up’: Exploring UC Berkeley’s culture of entrepreneurship](https://www.dailycal.org/2018/08/08/dream-build-start-exploring-uc-berkeleys-culture-entrepreneurship/)
+
+The Daily Californian {% class="text-sm" %}
+
+> [Origin stories at The House](https://engineering.berkeley.edu/news/2017/03/origin-stories-at-the-house/)
+
+Berkeley Engineering {% class="text-sm" %}
 
 ## Past Guests
 

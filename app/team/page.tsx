@@ -26,7 +26,7 @@ function People({
 	return people
 		.sort((a, b) => factor * (a.class < b.class ? -1 : 1))
 		.map((person) => (
-			<div key={person.name}>
+			<div className="w-48" key={person.name}>
 				<div className="w-full relative h-48 mb-4">
 					<Image
 						src={person.image}
@@ -75,11 +75,11 @@ export default function Team() {
 			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
-			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-12">
+			<div className="flex flex-wrap gap-8 mt-12">
 				<People people={team} order="asc" />
 			</div>
 			<h2 className="text-3xl mt-12 font-accent font-bold">Alumni</h2>
-			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-12">
+			<div className="flex flex-wrap gap-8 mt-12">
 				<People people={alumni} order="desc" />
 			</div>
 		</div>
