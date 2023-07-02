@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Email",
+    "link": "mailto:btfdecal@gmail.com",
+    "image": "/static/vectors/social/email.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/btfcal",
+    "image": "/static/vectors/social/twitter.svg"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://www.facebook.com/btfdecal",
+    "image": "/static/vectors/social/facebook.svg"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/company/how-to-build-the-future-decal/",
+    "image": "/static/vectors/social/linkedin.svg"
+  }
+]

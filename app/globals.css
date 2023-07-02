@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.css';
+
+@layer utilities {
+  .link {
+    @apply decoration-dotted underline underline-offset-2 decoration-slate-400;
+  }
+
+  .title {
+    @apply font-accent text-4xl md:text-5xl !leading-tight font-bold sm:max-w-xl md:max-w-2xl;
+  }
+
+  .shiny {
+    -webkit-text-fill-color: transparent;
+    @apply text-primary box-decoration-clone animate-[shine_5s_cubic-bezier(0.4,_0.7,_0.7,_0.4)_infinite] bg-clip-text bg-[200%_auto] from-primary from-[70%] via-accent via-[75%] to-primary to-[80%] -bg-gradient-60;
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: 200% center;
+  }
+}

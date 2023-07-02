@@ -1,0 +1,52 @@
+@font-face {
+	font-family: "Ambit";
+	src: url("/fonts/Ambit/Ambit-Regular.otf") format("opentype"),
+		url("/fonts/Ambit/Ambit-Regular.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Ambit";
+	src: url("/fonts/Ambit/Ambit-Bold.otf") format("opentype"),
+		url("/fonts/Ambit/Ambit-Bold.ttf") format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Circular";
+	src: url("/fonts/Circular/CircularStd-Book.eot");
+	src: url("/fonts/Circular/CircularStd-Book.eot#iefix")
+			format("embedded-opentype"),
+		url("/fonts/Circular/CircularStd-Book.woff2") format("woff2"),
+		url("/fonts/Circular/CircularStd-Book.woff") format("woff"),
+		url("/fonts/Circular/CircularStd-Book.ttf") format("truetype"),
+		url("/fonts/Circular/CircularStd-Book.svg") format("svg");
+	font-weight: 400;
+	font-style: "normal";
+}
+
+@font-face {
+	font-family: "Circular";
+	src: url("/fonts/Circular/CircularStd-Bold.eot");
+	src: url("/fonts/Circular/CircularStd-Bold.eot#iefix")
+			format("embedded-opentype"),
+		url("/fonts/Circular/CircularStd-Bold.woff2") format("woff2"),
+		url("/fonts/Circular/CircularStd-Bold.woff") format("woff"),
+		url("/fonts/Circular/CircularStd-Bold.ttf") format("truetype"),
+		url("/fonts/Circular/CircularStd-Bold.svg") format("svg");
+	font-weight: 700;
+	font-style: "normal";
+}
+
+@font-face {
+	font-family: "Circular";
+	src: url("/fonts/Circular/CircularStd-Medium.eot");
+	src: url("/fonts/Circular/CircularStd-Medium.eot#iefix")
+			format("embedded-opentype"),
+		url("/fonts/Circular/CircularStd-Medium.woff2") format("woff2"),
+		url("/fonts/Circular/CircularStd-Medium.woff") format("woff"),
+		url("/fonts/Circular/CircularStd-Medium.ttf") format("truetype"),
+		url("/fonts/Circular/CircularStd-Medium.svg") format("svg");
+	font-weight: 500;
+	font-style: "normal";
+}
