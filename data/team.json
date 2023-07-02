@@ -6,7 +6,7 @@
 		"linkedin": "https://www.linkedin.com/in/sauhardjain/",
 		"twitter": "https://twitter.com/sauhard_jain",
 		"email": "sauhard@berkeley.edu",
-		"image": "/images/team/sauhard.jpg"
+		"image": "sauhard.jpg"
 	},
 	{
 		"name": "Natasha Arya",
@@ -15,7 +15,7 @@
 		"linkedin": "https://www.linkedin.com/in/natashaarya/",
 		"twitter": "https://twitter.com/natashaarya_",
 		"email": "natashaarya@berkeley.edu",
-		"image": "/images/team/natasha.jpeg"
+		"image": "natasha.jpeg"
 	},
 	{
 		"name": "Catherine Zhao",
@@ -24,7 +24,7 @@
 		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
 		"twitter": "https://twitter.com/catherineyzhao",
 		"email": "catherinezhao@berkeley.edu",
-		"image": "/images/team/cat.jpeg"
+		"image": "cat.jpeg"
 	},
 	{
 		"name": "Kabir Goel",
@@ -33,6 +33,6 @@
 		"linkedin": "https://www.linkedin.com/in/kabirgoel/",
 		"twitter": "https://twitter.com/kabirgoel",
 		"email": "kabirgoel@berkeley.edu",
-		"image": "/images/team/kabir.jpeg"
+		"image": "kabir.jpeg"
 	}
 ]

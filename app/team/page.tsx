@@ -24,14 +24,20 @@ function People({
 	// descending.
 	const factor = order === "asc" ? 1 : -1
 	return people
-		.sort((a, b) => factor * (a.class < b.class ? -1 : 1))
+		.sort((a, b) => {
+			// Sort by class first, then by name.
+			if (a.class < b.class) return factor * -1
+			if (a.class > b.class) return factor * 1
+			return 0
+		})
 		.map((person) => (
 			<div className="w-48" key={person.name}>
 				<div className="w-full relative h-48 mb-4">
 					<Image
-						src={person.image}
+						src={require(`@/public/images/team/${person.image}`)}
 						alt={`Picture of ${person.name}`}
 						fill
+						placeholder="blur"
 						className="object-cover object-top rounded-lg shadow-sm"
 					/>
 				</div>

@@ -6,7 +6,7 @@
 		"linkedin": "https://www.linkedin.com/in/vedika-dayal/",
 		"twitter": "https://twitter.com/vedikasworld",
 		"email": "vedikadayal@berkeley.edu",
-		"image": "/images/team/vedika.png"
+		"image": "vedika.png"
 	},
 	{
 		"name": "Karen Tseng",
@@ -15,7 +15,7 @@
 		"linkedin": "https://www.linkedin.com/in/yun-jung-tseng/",
 		"twitter": "https://twitter.com/kar3ntseng",
 		"email": "yunjungtseng@berkeley.edu",
-		"image": "/images/team/karen.JPG"
+		"image": "karen.jpg"
 	},
 	{
 		"name": "Divyansh Saksena",
@@ -24,7 +24,7 @@
 		"linkedin": "https://www.linkedin.com/in/divsaksena/",
 		"twitter": "https://twitter.com/divsksna",
 		"email": "divsaksena@berkeley.edu",
-		"image": "/images/team/div.jpg"
+		"image": "div.jpg"
 	},
 	{
 		"name": "Smera Patil",
@@ -33,7 +33,7 @@
 		"linkedin": "https://www.linkedin.com/in/smerapatil/",
 		"twitter": "https://twitter.com/smera___",
 		"email": "smera@berkeley.edu",
-		"image": "/images/team/smera.jpg"
+		"image": "smera.jpg"
 	},
 	{
 		"name": "Mingjie Jiang",
@@ -42,7 +42,7 @@
 		"linkedin": "https://www.linkedin.com/in/itsmingjie/",
 		"twitter": "https://twitter.com/itsmingjie",
 		"email": "m6@berkeley.edu",
-		"image": "/images/team/mingjie.jpg"
+		"image": "mingjie.jpg"
 	},
 	{
 		"name": "Brandon Handoko",
@@ -51,7 +51,7 @@
 		"linkedin": "https://www.linkedin.com/in/brandon-handoko/",
 		"twitter": "https://twitter.com/brndnwll",
 		"email": "brndn@berkeley.edu",
-		"image": "/images/team/brandon.png"
+		"image": "brandon.png"
 	},
 	{
 		"name": "Danny Ha",
@@ -59,14 +59,14 @@
 		"major": "Growth @ Ampush",
 		"linkedin": "https://www.linkedin.com/in/dannyhha/",
 		"twitter": "https://twitter.com/dannyyha",
-		"image": "/images/team/danny.jpg"
+		"image": "danny.jpg"
 	},
 	{
 		"name": "Shivam Dave",
 		"class": "22",
 		"major": "Eng @ Atlassian",
 		"linkedin": "https://www.linkedin.com/in/shivamdave98/",
-		"image": "/images/team/shivam.jpg"
+		"image": "shivam.jpg"
 	},
 	{
 		"name": "Daniel Andrews",
@@ -74,7 +74,7 @@
 		"major": "Founder @ Playground",
 		"linkedin": "https://www.linkedin.com/in/danielandrews43/",
 		"twitter": "https://twitter.com/danielandrews43",
-		"image": "/images/team/daniel.jpeg"
+		"image": "daniel.jpeg"
 	},
 	{
 		"name": "Johnathan Zhou",
@@ -82,7 +82,7 @@
 		"major": "Product @ Loom",
 		"linkedin": "https://www.linkedin.com/in/johnathanz/",
 		"twitter": "https://twitter.com/johnathanzhou",
-		"image": "/images/team/johnathan.jpeg"
+		"image": "johnathan.jpeg"
 	},
 	{
 		"name": "Thomas Liao",
@@ -90,7 +90,7 @@
 		"major": "Previously @ Scale AI",
 		"linkedin": "https://www.linkedin.com/in/thomasliao/",
 		"twitter": "https://twitter.com/ThomasILiao",
-		"image": "/images/team/thomas.jpeg"
+		"image": "thomas.jpeg"
 	},
 	{
 		"name": "Aakash Adesara",
@@ -98,7 +98,7 @@
 		"major": "Co-founder @ SellScale",
 		"linkedin": "https://www.linkedin.com/in/aaadesara/",
 		"twitter": "https://twitter.com/aakashadesara",
-		"image": "/images/team/aakash.jpeg"
+		"image": "aakash.jpeg"
 	},
 	{
 		"name": "Maitri Shah",
@@ -106,7 +106,7 @@
 		"major": "Eng @ Loom",
 		"linkedin": "https://www.linkedin.com/in/maitri-shah/",
 		"twitter": "https://twitter.com/maitrishahhhh",
-		"image": "/images/team/maitri.jpeg"
+		"image": "maitri.jpeg"
 	},
 	{
 		"name": "Zuhayeer Musa",
@@ -114,7 +114,7 @@
 		"major": "Co-founder @ Levels.fyi",
 		"linkedin": "https://www.linkedin.com/in/zuhayeer/",
 		"twitter": "https://twitter.com/zuhayeer",
-		"image": "/images/team/zuhayeer.jpeg"
+		"image": "zuhayeer.jpeg"
 	},
 	{
 		"name": "Jimmy Liu",
@@ -122,7 +122,7 @@
 		"major": "Co-founder @ Sail",
 		"linkedin": "https://www.linkedin.com/in/jimmyliu98/",
 		"twitter": "https://twitter.com/jimmyliu?lang=en",
-		"image": "/images/team/jimmy.jpeg"
+		"image": "jimmy.jpeg"
 	},
 	{
 		"name": "Ivan Borzenko",
@@ -130,13 +130,13 @@
 		"major": "Co-founder @ Dreamers Media",
 		"linkedin": "https://www.linkedin.com/in/ivanborzenko/",
 		"twitter": "https://twitter.com/ivan_borzenko",
-		"image": "/images/team/ivan.png"
+		"image": "ivan.png"
 	},
 	{
 		"name": "Chloe Guo",
 		"class": "23",
 		"major": "Investing @ Morgan Stanley",
 		"email": "chloerongyuguo@berkeley.edu",
-		"image": "/images/team/chloe.jpg"
+		"image": "chloe.jpg"
 	}
 ]
