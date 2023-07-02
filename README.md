@@ -1,4 +1,4 @@
-<img src="./public/logo.png" alt="" width="64" height="38" style="padding-bottom: 10px" align="right" />
+<img src="./public/logo.png" alt="" width="64" height="38" align="right" />
 
 # Build the Future
 
