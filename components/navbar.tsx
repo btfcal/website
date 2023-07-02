@@ -22,8 +22,10 @@ export default function Navbar() {
 					<a
 						key={link}
 						className={clsx(
-							"hover:text-primary underline-offset-4 underline decoration-transparent hover:decoration-primary transition-colors",
-							pathname === link && "font-bold decoration-inherit",
+							"hover:text-primary underline-offset-4 underline hover:decoration-primary transition-colors",
+							pathname === link
+								? "font-bold decoration-inherit"
+								: "decoration-transparent",
 						)}
 						href={link}
 					>

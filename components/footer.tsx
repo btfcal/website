@@ -4,16 +4,8 @@ import Image from "next/image"
 
 export default function Footer() {
 	return (
-		<footer className="border-t py-12 px-8 gap-8 flex flex-col md:flex-row justify-between items-start">
-			<div>
-				<Logo />
-				<p className="mt-4 text-slate-500 max-w-prose">
-					We are a student group acting independently of the University of
-					California. We take full responsibility for our organization and this
-					website.
-				</p>
-			</div>
-			<div className="flex gap-4 p-4 rounded-lg">
+		<footer className="border-t py-12 px-8">
+			<div className="flex gap-4 rounded-lg items-end">
 				{socials.map(({ link, image, name }) => (
 					<a
 						key={link}
@@ -27,6 +19,11 @@ export default function Footer() {
 					</a>
 				))}
 			</div>
+			<p className="mt-4 text-slate-500 max-w-sm">
+				We are a student group acting independently of the University of
+				California. We take full responsibility for our organization and this
+				website.
+			</p>
 		</footer>
 	)
 }
