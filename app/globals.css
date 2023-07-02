@@ -16,6 +16,10 @@
     -webkit-text-fill-color: transparent;
     @apply text-primary box-decoration-clone animate-[shine_5s_cubic-bezier(0.4,_0.7,_0.7,_0.4)_infinite] bg-clip-text bg-[200%_auto] from-primary from-[70%] via-accent via-[75%] to-primary to-[80%] -bg-gradient-60;
   }
+
+  .markdown {
+    @apply prose prose-lg prose-a:decoration-dotted prose-a:underline-offset-4 prose-a:text-primary prose-headings:font-accent;
+  }
 }
 
 @keyframes shine {

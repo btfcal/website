@@ -1,18 +1,16 @@
 ---
-title: 'DeCal'
-htmlTitle: 'DeCal'
-description: '1 entrepreneur. 30 students. Every week.'
-link: https://docs.google.com/forms/d/e/1FAIpQLSccBbL3OsjrCRmnt-qZl99F96g5yvbE5Lm9ZRrUwJg-gv6tuw/viewform?usp=sf_link
-linkText: Spring 2023 DeCal Application »
+title: DeCal
+semester: Fall 2023
+application_url: null
 ---
 
-# In The Press
+## In The Press
 
 - **[The best Silicon Valley class money can’t buy](https://www.sfexaminer.com/news/the-best-silicon-valley-class-money-cant-buy/)** -- The San Francisco Examiner
 - **[‘Dream, build and start up’: Exploring UC Berkeley’s culture of entrepreneurship](https://www.dailycal.org/2018/08/08/dream-build-start-exploring-uc-berkeleys-culture-entrepreneurship/)** -- The Daily Californian
 - **[Origin stories at The House](https://engineering.berkeley.edu/news/2017/03/origin-stories-at-the-house/)** -- Berkeley Engineering
 
-# Past Speakers
+## Past Speakers
 
 | Name                | Company                         | Semester    |
 | ------------------- | ------------------------------- | ----------- |
