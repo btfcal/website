@@ -8,7 +8,7 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col text-sm sm:text-base md:flex-row justify-between sm:items-center p-8 text-slate-700">
+		<nav className="flex flex-col text-sm sm:text-base md:flex-row justify-between sm:items-center px-8 py-4 text-slate-700">
 			<div>
 				<a href="/" className="flex items-center gap-4">
 					<Logo />
@@ -17,12 +17,13 @@ export default function Navbar() {
 					</span>
 				</a>
 			</div>
-			<ul className="flex gap-4">
+			<ul className="flex gap-6">
 				{navLinks.map(({ link, title }) => (
 					<a
 						key={link}
 						className={clsx(
-							pathname === link && "text-primary underline underline-offset-4",
+							"hover:text-primary underline-offset-4 underline decoration-transparent hover:decoration-primary transition-colors",
+							pathname === link && "font-bold decoration-inherit",
 						)}
 						href={link}
 					>
