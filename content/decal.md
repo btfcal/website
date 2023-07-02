@@ -29,6 +29,14 @@ The Daily Californian {% class="text-sm" %}
 
 Berkeley Engineering {% class="text-sm" %}
 
+> [In undergrad startup class, students learn to build the future](https://news.berkeley.edu/2017/09/29/in-berkeleys-new-undergrad-startup-class-students-learn-to-build-the-future/)
+
+Berkeley News {% class="text-sm" %}
+
+> [Jimmy Liu and Zuhayeer Musa build the future](https://eecs.berkeley.edu/news/2017/10/jimmy-liu-and-zuhayeer-musa-build-future)
+
+Berkeley EECS News {% class="text-sm" %}
+
 ## Past Guests
 
 | Name                | Company                         | Semester    |
