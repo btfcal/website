@@ -1,5 +1,4 @@
 import socials from "@/data/social.json"
-import Logo from "./logo"
 import Image from "next/image"
 
 export default function Footer() {
