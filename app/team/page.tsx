@@ -11,10 +11,20 @@ interface Person {
 	twitter?: string
 	email?: string
 }
-function People({ people }: { people: Person[] }) {
+function People({
+	people,
+	order,
+}: {
+	people: Person[]
+	order: "asc" | "desc"
+}) {
 	const socials = ["linkedin", "twitter", "email"] as const
+	// The factor is 1 if order is ascending, -1 if descending.
+	// This basically inverts the sort comparison function if order is
+	// descending.
+	const factor = order === "asc" ? 1 : -1
 	return people
-		.sort((a, b) => (a.name > b.name ? 1 : -1))
+		.sort((a, b) => factor * (a.class < b.class ? -1 : 1))
 		.map((person) => (
 			<div className="flex-none w-1/4" key={person.name}>
 				<div className="w-full relative h-48 mb-4">
@@ -66,11 +76,11 @@ export default function Team() {
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
 			<div className="flex flex-wrap gap-8 mt-12">
-				<People people={team} />
+				<People people={team} order="asc" />
 			</div>
 			<h2 className="text-3xl mt-12 font-accent font-bold">Alumni</h2>
 			<div className="flex flex-wrap gap-8 mt-8">
-				<People people={alumni} />
+				<People people={alumni} order="desc" />
 			</div>
 		</div>
 	)
