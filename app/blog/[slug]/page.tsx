@@ -7,7 +7,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
 	return (
 		<Container className="markdown max-w-screen-md">
-			<h1 className="!mb-2">{data.title}</h1>
+			<h1 className="!mb-2 !text-4xl">{data.title}</h1>
 			<p className="!mb-12 text-base text-slate-600">
 				Published {formatDate(data.date)}
 			</p>
