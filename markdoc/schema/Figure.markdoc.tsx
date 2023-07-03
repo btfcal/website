@@ -2,7 +2,7 @@
 
 export default function Figure({ title, src }: { title: string; src: string }) {
 	return (
-		<figure className="my-4 relative">
+		<figure>
 			<img src={src} alt={title} />
 			<figcaption>{title}</figcaption>
 		</figure>
