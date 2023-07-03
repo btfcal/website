@@ -20,7 +20,7 @@
   .markdown {
     @apply prose prose-slate prose-lg prose-a:decoration-dotted
     prose-a:underline-offset-4 prose-a:text-primary prose-headings:font-accent
-    prose-blockquote:font-normal prose-blockquote:not-italic
+    prose-headings:leading-tight prose-blockquote:font-normal prose-blockquote:not-italic
     prose-p:before:content-none prose-p:after:content-none;
   }
 
