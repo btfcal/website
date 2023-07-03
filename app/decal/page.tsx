@@ -8,7 +8,7 @@ export default async function DeCal() {
 
 	return (
 		<div className="container py-12 px-8 max-w-screen-md mx-auto">
-			<h1 className="title text-primary mb-4">{title}</h1>
+			<h1 className="title text-slate-800 mb-4">{title}</h1>
 			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
 				{description}
 			</p>
