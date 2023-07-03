@@ -1,12 +1,24 @@
 import socials from "@/data/social.json"
+import navLinks from "@/data/nav-links.json"
 import Image from "next/image"
 import Container from "./container"
 
 export default function Footer() {
 	return (
 		<footer className="border-t">
-			<Container>
-				<div className="flex items-end gap-4 rounded-lg">
+			<Container className="flex flex-col items-center gap-12 text-center">
+				<div className="flex gap-8">
+					{navLinks.map(({ link, title }) => (
+						<a
+							key={link}
+							className="text-slate-500 transition-colors hover:text-slate-800"
+							href={link}
+						>
+							{title}
+						</a>
+					))}
+				</div>
+				<div className="flex gap-8">
 					{socials.map(({ link, image, name }) => (
 						<a
 							key={link}
@@ -20,7 +32,7 @@ export default function Footer() {
 						</a>
 					))}
 				</div>
-				<p className="mt-4 max-w-sm text-slate-500">
+				<p className="max-w-sm text-slate-400">
 					We are a student group acting independently of the University of
 					California. We take full responsibility for our organization and this
 					website.

@@ -22,15 +22,13 @@ export default function Navbar() {
 					<HamburgerMenuIcon className="h-6 w-6" />
 				</label>
 			</div>
-			<ul className="hidden flex-col border-y bg-white shadow-sm peer-checked:flex md:flex md:flex-row md:gap-8 md:border-none md:bg-transparent md:shadow-none">
+			<ul className="hidden flex-col border-y bg-white shadow-sm peer-checked:flex md:flex md:flex-row md:gap-4 md:border-none md:bg-transparent md:shadow-none">
 				{navLinks.map(({ link, title }) => (
 					<a
 						key={link}
 						className={clsx(
-							"px-8 py-4 underline underline-offset-4 transition-colors hover:text-primary hover:decoration-primary md:p-0",
-							pathname === link
-								? "font-bold decoration-inherit"
-								: "decoration-transparent",
+							"rounded-lg px-8 py-2 transition-colors hover:text-primary md:px-4",
+							pathname === link ? "bg-slate-100 font-bold" : "",
 						)}
 						href={link}
 					>
