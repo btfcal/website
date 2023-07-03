@@ -55,7 +55,7 @@ function People({
 }) {
 	const results = sortBy(people, ["class"]).map((person) => (
 		<div
-			className="flex md:flex-col items-center md:items-start gap-4"
+			className="flex items-center gap-4 md:flex-col md:items-start"
 			key={person.name}
 		>
 			<Image
@@ -63,13 +63,13 @@ function People({
 				alt={`Picture of ${person.name}`}
 				width="200"
 				height="200"
-				className="object-cover object-top rounded-lg shadow-sm w-24 h-24 md:w-48 md:h-48"
+				className="h-24 w-24 rounded-lg object-cover object-top shadow-sm md:h-48 md:w-48"
 			/>
 			<div>
-				<p className="text-slate-800 font-medium text-lg">
+				<p className="text-lg font-medium text-slate-800">
 					{person.name} ‘{person.class}
 				</p>
-				<p className="text-slate-500 text-sm">{person.major}</p>
+				<p className="text-sm text-slate-500">{person.major}</p>
 				<Socials person={person} />
 			</div>
 		</div>
@@ -77,7 +77,7 @@ function People({
 	if (order === "desc") results.reverse()
 
 	return (
-		<div className="grid md:grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-8 mt-12">
+		<div className="mt-12 grid gap-8 md:grid-cols-[repeat(auto-fill,minmax(200px,1fr))]">
 			{results}
 		</div>
 	)
@@ -86,12 +86,12 @@ function People({
 export default function Team() {
 	return (
 		<Container>
-			<h1 className="title text-primary mb-4">Team</h1>
-			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
+			<h1 className="title mb-4 text-primary">Team</h1>
+			<p className="max-w-lg text-lg text-slate-600 sm:text-xl">
 				We’re a small team of facilitators with an ambitious mission.
 			</p>
 			<People people={team} order="asc" />
-			<h2 className="text-3xl mt-12 font-accent font-bold">Alumni</h2>
+			<h2 className="mt-12 font-accent text-3xl font-bold">Alumni</h2>
 			<People people={alumni} order="desc" />
 		</Container>
 	)

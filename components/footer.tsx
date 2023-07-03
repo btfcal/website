@@ -6,7 +6,7 @@ export default function Footer() {
 	return (
 		<footer className="border-t">
 			<Container>
-				<div className="flex gap-4 rounded-lg items-end">
+				<div className="flex items-end gap-4 rounded-lg">
 					{socials.map(({ link, image, name }) => (
 						<a
 							key={link}
@@ -20,7 +20,7 @@ export default function Footer() {
 						</a>
 					))}
 				</div>
-				<p className="mt-4 text-slate-500 max-w-sm">
+				<p className="mt-4 max-w-sm text-slate-500">
 					We are a student group acting independently of the University of
 					California. We take full responsibility for our organization and this
 					website.

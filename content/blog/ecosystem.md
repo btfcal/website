@@ -3,9 +3,9 @@ title: "A Rolling Guide to the Berkeley Ecosystem"
 date: 2022-09-05T17:00:00-05:00
 ---
 
-Odds are you’ve walked through Sproul and at any given time there were at least 8 different people trying to give you their organization’s spiel. Arms outstretched, they chorus: “Would you like to join ABC?” 
+Odds are you’ve walked through Sproul and at any given time there were at least 8 different people trying to give you their organization’s spiel. Arms outstretched, they chorus: “Would you like to join ABC?”
 
-We’ve been there. And we remember the sensory and auditory overload that accompanies walking through Sproul during the first week of the semester. There’s a whole host of opportunities at Berkeley where you can develop your entrepreneurial skillset, but deciding which ones to pursue is always hard. The incredible variety also doesn’t make navigating the ecosystem easier at all.  What’s easy to spot, however, is the strong undercurrent of entrepreneurship that flows through campus — be it through incubators, student-led VC funds, or even design and consulting organizations, the spirit of innovation is definitely hard to miss on the Berkeley campus.
+We’ve been there. And we remember the sensory and auditory overload that accompanies walking through Sproul during the first week of the semester. There’s a whole host of opportunities at Berkeley where you can develop your entrepreneurial skillset, but deciding which ones to pursue is always hard. The incredible variety also doesn’t make navigating the ecosystem easier at all. What’s easy to spot, however, is the strong undercurrent of entrepreneurship that flows through campus — be it through incubators, student-led VC funds, or even design and consulting organizations, the spirit of innovation is definitely hard to miss on the Berkeley campus.
 
 In continuing to foster that same entrepreneurial spirit, below is a rundown of resources we’d turn to in the Berkeley ecosystem, from clubs and classes that will equip you with the skills needed to code/design/build models to incubators and VC funds that will help you navigate the labyrinth of getting funded and launching.
 
@@ -39,7 +39,7 @@ Free Ventures is a student-run pre-seed startup accelerator. Each semester, they
 
 ### Venture Strategy Solutions
 
-Venture Strategy Solutions (also called Venture) is a startup-focused consulting organization. Some of their past clients include Niantic, Snackpass, Figma, and Pipe. As the only consulting club focused on early-stage startups, they’ve sure been one of the leaders in cultivating founders as well as a spirit of innovation within Cal. 
+Venture Strategy Solutions (also called Venture) is a startup-focused consulting organization. Some of their past clients include Niantic, Snackpass, Figma, and Pipe. As the only consulting club focused on early-stage startups, they’ve sure been one of the leaders in cultivating founders as well as a spirit of innovation within Cal.
 
 **[Learn more »](https://www.berkeleyvss.com)**
 
@@ -72,8 +72,7 @@ Over 13 weeks, the course covers 10 core topics that we believe to be essential 
 ### Competitions
 
 - **[CalHacks](https://calhacks.io)** is the world's largest collegiate hackathon. It typically runs over a weekend and is open to students from any university. It also runs a Fellowship program for selected CalHacks teams to continue building their projects with mentorship, equity-free grants, and workshops from the brightest minds in entrepreneurship and engineering.
-- [Big Ideas @ Berkeley](https://bigideascontest.org) 
-
+- [Big Ideas @ Berkeley](https://bigideascontest.org)
 
 ### Undergraduate Courses
 
@@ -98,7 +97,7 @@ Over 13 weeks, the course covers 10 core topics that we believe to be essential 
 
 ---
 
-## Funding & Accelerators 
+## Funding & Accelerators
 
 - [The House Fund](https://thehouse.fund) is a pre-seed and early stage venture capital fund investing in the Berkeley community. They’ve mainly invested within the industries of Consumer, Enterprise and AI through the likes of Superhuman, Dyndrite, and Eko. One of their core offerings, AI@TheHouse, focuses on creating partnerships with the best AI researchers in the world to pair university-led research with the possibilities of starting up, creating an incredible foundation for AI-focused startups to succeed at Berkeley.
 - [Dorm Room Fund](https://www.dormroomfund.com/) is a VC firm focused specifically on investing in student-run startups. They are supported by First Round Capital and we like them because of their comparatively smaller check sizes (ave. 5-10 investments at $50k vs. 1-2 investments at $500k.

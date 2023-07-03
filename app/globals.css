@@ -1,49 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import './fonts.css';
+@import "./fonts.css";
 
 @layer utilities {
-  .link {
-    @apply decoration-dotted underline underline-offset-2 decoration-slate-400;
-  }
+	.link {
+		@apply underline decoration-slate-400 decoration-dotted underline-offset-2;
+	}
 
-  .title {
-    @apply font-accent text-4xl md:text-5xl !leading-tight font-bold sm:max-w-xl md:max-w-2xl;
-  }
+	.title {
+		@apply font-accent text-4xl font-bold !leading-tight sm:max-w-xl md:max-w-2xl md:text-5xl;
+	}
 
-  .shiny {
-    -webkit-text-fill-color: transparent;
-    @apply text-primary box-decoration-clone animate-[shine_5s_cubic-bezier(0.4,_0.7,_0.7,_0.4)_infinite] bg-clip-text bg-[200%_auto] from-primary from-[70%] via-accent via-[75%] to-primary to-[80%] -bg-gradient-60;
-  }
+	.shiny {
+		-webkit-text-fill-color: transparent;
+		@apply animate-[shine_5s_cubic-bezier(0.4,_0.7,_0.7,_0.4)_infinite] -bg-gradient-60 from-primary from-[70%] via-accent via-[75%] to-primary to-[80%] box-decoration-clone bg-[200%_auto] bg-clip-text text-primary;
+	}
 
-  .markdown {
-    @apply prose prose-slate prose-lg prose-a:decoration-dotted
-    prose-a:underline-offset-4 prose-a:text-primary prose-headings:font-accent
-    prose-headings:leading-tight prose-blockquote:font-normal prose-blockquote:not-italic
-    prose-p:before:content-none prose-p:after:content-none prose-figure:-mx-8 prose-figcaption:mx-8
+	.markdown {
+		@apply prose prose-lg prose-slate prose-headings:font-accent
+    prose-headings:leading-tight prose-p:before:content-none prose-p:after:content-none
+    prose-a:text-primary prose-a:decoration-dotted prose-a:underline-offset-4
+    prose-blockquote:font-normal prose-blockquote:not-italic prose-figure:-mx-8 prose-figcaption:mx-8
     prose-table:block prose-table:overflow-x-auto;
-  }
+	}
 
-  .markdown summary {
-    @apply cursor-pointer list-none font-medium;
-  }
+	.markdown summary {
+		@apply cursor-pointer list-none font-medium;
+	}
 
-  .markdown summary::-webkit-details-marker {
-    @apply hidden;
-  }  
+	.markdown summary::-webkit-details-marker {
+		@apply hidden;
+	}
 
-  .markdown details {
-    @apply border rounded-md px-8 py-4 my-4;
-  }
+	.markdown details {
+		@apply my-4 rounded-md border px-8 py-4;
+	}
 
-  .markdown details[open] > summary {
-    @apply border-b text-primary pb-4;
-  }
+	.markdown details[open] > summary {
+		@apply border-b pb-4 text-primary;
+	}
 }
 
 @keyframes shine {
-  from {
-    background-position: 200% center;
-  }
+	from {
+		background-position: 200% center;
+	}
 }

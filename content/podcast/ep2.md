@@ -1,5 +1,5 @@
 ---
-title: "SkyDeck and \"Student Startups\" + a call-in from Tanthai at Dorm Room Fund"
+title: 'SkyDeck and "Student Startups" + a call-in from Tanthai at Dorm Room Fund'
 episode: 2
 date: 2021-04-14
 anchor_id: "EP2-SkyDeck-and-Student-Startups--a-call-in-from-Tanthai-at-Dorm-Room-Fund-euse0v"
@@ -10,10 +10,10 @@ dark: true
 
 SkyDeck, Berkeley's on-campus accelerator, hosted their annual demo day on April 7th. The batch of 17 startups presented in an all-remote setting and consisted of companies like [The Hurd Co](https://thehurdco.com/), a company creating an environmentally-friendly pulp to make clothes from; [Humm](https://thinkhumm.com/), manufacturing a patch that goes on your forehead using [tACS](https://neuromodec.com/what-is-transcranial-alternating-current-stimulation-tacs/) to help sharpen memory, reading, and problem-solving by ~20%; and [NuPort Robotics](https://www.nuport.ai/), a company retrofitting semitrucks with autonomous capabilities. [Yahoo! Finance covered all of the presenting companies here](https://finance.yahoo.com/news/berkeley-skydeck-presents-batch-11-150000775.html). SkyDeck is also hosting an internship fair for prospective students on May 7th — [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSfcAy6nNDjvsjBS_tanznwOKCSn9r2_ULfM-6Md0RYBO2_Siw/viewform).
 
-Some unresearched takes that we explored on the show regarded a precedent of moving away from *student startups*
+Some unresearched takes that we explored on the show regarded a precedent of moving away from _student startups_
 
 - As SkyDeck batches have come and gone, we've seen less companies centered around solving common collegiate problems like notetaking, payments, ridesharing, replaced by companies working on disruptive AI, next-generation robotics and even [super-sweet strawberries](https://www.oishii.com/) — "are students just burnt out?"
-- We explored the requirements necessary to become a SkyDeck startup and how much it's worth given it's slow veer away from fulfilling the role of *the* Berkeley accelerator
+- We explored the requirements necessary to become a SkyDeck startup and how much it's worth given it's slow veer away from fulfilling the role of _the_ Berkeley accelerator
 
 ## Office Hours with The House
 

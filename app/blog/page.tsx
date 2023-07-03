@@ -28,10 +28,10 @@ export default function Blog() {
 	const posts = getPosts()
 
 	return (
-		<Container className="max-w-3xl flex items-center flex-col">
+		<Container className="flex max-w-3xl flex-col items-center">
 			<div className="text-center">
-				<h1 className="title text-primary mb-4">Blog</h1>
-				<p className="text-lg sm:text-xl max-w-lg text-slate-600">
+				<h1 className="title mb-4 text-primary">Blog</h1>
+				<p className="max-w-lg text-lg text-slate-600 sm:text-xl">
 					Updates from the BTF community.
 				</p>
 			</div>
@@ -39,7 +39,7 @@ export default function Blog() {
 				{posts.map((post) => (
 					<div key={post.slug} className="border-l-4 border-dotted pl-4">
 						<a
-							className="text-2xl font-accent font-bold text-slate-700"
+							className="font-accent text-2xl font-bold text-slate-700"
 							href={`/blog/${post.slug}`}
 						>
 							{post.data.title}

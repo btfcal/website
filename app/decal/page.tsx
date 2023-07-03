@@ -9,19 +9,19 @@ export default async function DeCal() {
 
 	return (
 		<Container className="max-w-screen-md">
-			<h1 className="title text-slate-800 mb-4">{title}</h1>
-			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
+			<h1 className="title mb-4 text-slate-800">{title}</h1>
+			<p className="max-w-lg text-lg text-slate-600 sm:text-xl">
 				{description}
 			</p>
 			{application_url ? (
 				<a
-					className="mt-8 mb-12 inline-block py-2 px-6 bg-primary border border-blue-800 font-bold text-white rounded-lg shadow-sm transform hover:scale-105 transition-transform"
+					className="mb-12 mt-8 inline-block transform rounded-lg border border-blue-800 bg-primary px-6 py-2 font-bold text-white shadow-sm transition-transform hover:scale-105"
 					href={application_url}
 				>
 					Apply for {semester} »
 				</a>
 			) : (
-				<p className="mt-8 font-bold text-primary border-l-2 pl-4">
+				<p className="mt-8 border-l-2 pl-4 font-bold text-primary">
 					Check back to apply for {semester}!
 				</p>
 			)}

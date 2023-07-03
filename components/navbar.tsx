@@ -9,12 +9,12 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col md:flex-row justify-between items-stretch md:items-center md:px-8 text-slate-700">
-			<input type="checkbox" id="toggle" className="hidden peer" />
-			<div className="flex justify-between items-center p-8 md:px-0">
+		<nav className="flex flex-col items-stretch justify-between text-slate-700 md:flex-row md:items-center md:px-8">
+			<input type="checkbox" id="toggle" className="peer hidden" />
+			<div className="flex items-center justify-between p-8 md:px-0">
 				<a href="/" className="flex items-center gap-4">
 					<Logo />
-					<span className="font-bold font-accent text-lg">
+					<span className="font-accent text-lg font-bold">
 						Build the Future
 					</span>
 				</a>
@@ -22,12 +22,12 @@ export default function Navbar() {
 					<HamburgerMenuIcon className="h-6 w-6" />
 				</label>
 			</div>
-			<ul className="hidden peer-checked:flex md:flex flex-col md:flex-row shadow-sm border-y bg-white md:bg-transparent md:shadow-none md:border-none md:gap-8">
+			<ul className="hidden flex-col border-y bg-white shadow-sm peer-checked:flex md:flex md:flex-row md:gap-8 md:border-none md:bg-transparent md:shadow-none">
 				{navLinks.map(({ link, title }) => (
 					<a
 						key={link}
 						className={clsx(
-							"hover:text-primary underline-offset-4 underline hover:decoration-primary transition-colors py-4 px-8 md:p-0",
+							"px-8 py-4 underline underline-offset-4 transition-colors hover:text-primary hover:decoration-primary md:p-0",
 							pathname === link
 								? "font-bold decoration-inherit"
 								: "decoration-transparent",

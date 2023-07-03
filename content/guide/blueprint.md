@@ -1,5 +1,5 @@
 ---
-title: 'Blueprint'
+title: "Blueprint"
 author: Divyansh Saksena
 ---
 
@@ -24,7 +24,7 @@ As it turns out, Nick and I had been following each other on Twitter for a while
   **Nick**: Last semester, I was a project developer. I was the point of contact with the nonprofit we were working with, and I would scope out deliverables with them. We would talk through the features of the platform, how a specific feature set is going to work etc. Most of the time you're translating all this into SPRINT tasks, ensuring our engineers are feeling not only challenged by the project but also mentored. You're always doing a lot across the board and you end up learning a lot more than you would have thought.
 
 - **Lastly, do you have any thoughts for anyone making their foray into the Berkeley ecosystem?**
-  
+
   **Nick**: As I said earlier as well, I think the themes to try and prioritize are equity and empathy. I think Blueprint is doing a great job of being equitable in the recruitment process in general. We are recruiting folks of all backgrounds, skillsets etc. I think when it comes to Blueprint in particular, one of the biggest things we look for is, of course, being passionate about the issue you want to tackle but at the same time realizing that technology is just the tool.
 
 ## Blueprint at Berkeley

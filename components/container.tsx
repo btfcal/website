@@ -11,7 +11,7 @@ export default function Container({
 }) {
 	const Component = as
 	return (
-		<Component className={clsx("container py-12 px-8 mx-auto", className)}>
+		<Component className={clsx("container mx-auto px-8 py-12", className)}>
 			{children}
 		</Component>
 	)
