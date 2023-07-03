@@ -1,3 +1,4 @@
+import Container from "@/components/container"
 import { getMarkdocContent } from "@/markdoc/content"
 
 export default async function DeCal() {
@@ -7,7 +8,7 @@ export default async function DeCal() {
 	} = await getMarkdocContent("decal")
 
 	return (
-		<div className="container py-12 px-8 max-w-screen-md mx-auto">
+		<Container className="max-w-screen-md">
 			<h1 className="title text-slate-800 mb-4">{title}</h1>
 			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
 				{description}
@@ -25,6 +26,6 @@ export default async function DeCal() {
 				</p>
 			)}
 			<div className="markdown my-12">{jsx}</div>
-		</div>
+		</Container>
 	)
 }

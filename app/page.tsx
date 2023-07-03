@@ -4,6 +4,7 @@ import Image from "next/image"
 import withDelian from "@/public/images/decal/with-delian.jpg"
 import decal from "@/public/images/decal/decal.png"
 import basesCollab from "@/public/images/coworking/bases-collab.jpg"
+import Container from "@/components/container"
 
 function Photos() {
 	return (
@@ -51,7 +52,10 @@ export default function Home() {
 	return (
 		<main>
 			<Background />
-			<section className="container pt-12 px-8 mx-auto flex flex-col items-start sm:items-center sm:text-center">
+			<Container
+				as="section"
+				className="pb-0 flex flex-col items-start sm:items-center sm:text-center"
+			>
 				<a
 					href="https://happy-lobster-238.notion.site/Patent-Pending-0349478eef8a40d4aedef068bd81bead"
 					className="bg-accent text-sm px-4 py-1 rounded-full font-bold text-slate-700 hover:translate-x-2 transform transition-all duration-500 whitespace-nowrap"
@@ -68,7 +72,7 @@ export default function Home() {
 				</p>
 				<Subscribe />
 				<Photos />
-			</section>
+			</Container>
 			<div className="border-t py-24 px-8 bg-white z-10">
 				<section className="max-w-3xl mx-auto">
 					<div className="flex flex-col md:flex-row items-baseline gap-2 md:gap-4 mb-8 md:mb-4">

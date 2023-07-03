@@ -4,7 +4,6 @@ import navLinks from "@/data/nav-links.json"
 import Logo from "./logo"
 import clsx from "clsx"
 import { HamburgerMenuIcon } from "@radix-ui/react-icons"
-import { useState } from "react"
 
 export default function Navbar() {
 	const pathname = usePathname()

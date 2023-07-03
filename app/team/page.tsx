@@ -1,6 +1,7 @@
 import team from "@/data/team.json"
 import alumni from "@/data/alumni.json"
 import Image from "next/image"
+import Container from "@/components/container"
 
 interface Person {
 	name: string
@@ -76,7 +77,7 @@ function People({
 
 export default function Team() {
 	return (
-		<div className="container py-12 px-8 mx-auto">
+		<Container>
 			<h1 className="title text-primary mb-4">Team</h1>
 			<p className="text-lg sm:text-xl max-w-lg text-slate-600">
 				We’re a small team of facilitators with an ambitious mission.
@@ -88,6 +89,6 @@ export default function Team() {
 			<div className="flex flex-wrap gap-8 mt-12">
 				<People people={alumni} order="desc" />
 			</div>
-		</div>
+		</Container>
 	)
 }

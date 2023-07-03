@@ -21,7 +21,8 @@
     @apply prose prose-slate prose-lg prose-a:decoration-dotted
     prose-a:underline-offset-4 prose-a:text-primary prose-headings:font-accent
     prose-headings:leading-tight prose-blockquote:font-normal prose-blockquote:not-italic
-    prose-p:before:content-none prose-p:after:content-none;
+    prose-p:before:content-none prose-p:after:content-none prose-figure:-mx-8 prose-figcaption:mx-8
+    prose-table:block prose-table:overflow-x-auto;
   }
 
   .markdown summary {

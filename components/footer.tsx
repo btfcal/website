@@ -1,10 +1,11 @@
 import socials from "@/data/social.json"
 import Image from "next/image"
+import Container from "./container"
 
 export default function Footer() {
 	return (
 		<footer className="border-t">
-			<div className="container py-12 px-8 mx-auto">
+			<Container>
 				<div className="flex gap-4 rounded-lg items-end">
 					{socials.map(({ link, image, name }) => (
 						<a
@@ -24,7 +25,7 @@ export default function Footer() {
 					California. We take full responsibility for our organization and this
 					website.
 				</p>
-			</div>
+			</Container>
 		</footer>
 	)
 }

@@ -1,3 +1,4 @@
+import Container from "@/components/container"
 import { formatDate, getMarkdocContent } from "@/markdoc/content"
 import path from "path"
 
@@ -5,10 +6,12 @@ export default async function Post({ params }: { params: { slug: string } }) {
 	const { jsx, data } = await getMarkdocContent(path.join("blog", params.slug))
 
 	return (
-		<div className="container py-12 px-8 mx-auto markdown">
-			<h1>{data.title}</h1>
-			<p className="text-slate-600">Published {formatDate(data.date)}</p>
+		<Container className="markdown max-w-screen-md">
+			<h1 className="!mb-2">{data.title}</h1>
+			<p className="!mb-12 text-base text-slate-600">
+				Published {formatDate(data.date)}
+			</p>
 			{jsx}
-		</div>
+		</Container>
 	)
 }

@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
 import { CONTENT_DIR, formatDate } from "@/markdoc/content"
+import Container from "@/components/container"
 
 function getPosts() {
 	const fileNames = fs.readdirSync(path.join(CONTENT_DIR, "blog"))
@@ -27,7 +28,7 @@ export default function Blog() {
 	const posts = getPosts()
 
 	return (
-		<div className="container max-w-3xl py-12 px-8 mx-auto flex items-center flex-col">
+		<Container className="max-w-3xl flex items-center flex-col">
 			<div className="text-center">
 				<h1 className="title text-primary mb-4">Blog</h1>
 				<p className="text-lg sm:text-xl max-w-lg text-slate-600">
@@ -49,6 +50,6 @@ export default function Blog() {
 					</div>
 				))}
 			</div>
-		</div>
+		</Container>
 	)
 }
