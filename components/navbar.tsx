@@ -23,12 +23,12 @@ export default function Navbar() {
 					<HamburgerMenuIcon />
 				</label>
 			</div>
-			<ul className="hidden peer-checked:flex md:flex flex-col md:flex-row shadow-sm border-y bg-white md:bg-transparent md:shadow-none md:border-none">
+			<ul className="hidden peer-checked:flex md:flex flex-col md:flex-row shadow-sm border-y bg-white md:bg-transparent md:shadow-none md:border-none md:px-8 md:gap-8">
 				{navLinks.map(({ link, title }) => (
 					<a
 						key={link}
 						className={clsx(
-							"hover:text-primary underline-offset-4 underline hover:decoration-primary transition-colors py-4 px-8 md:py-0",
+							"hover:text-primary underline-offset-4 underline hover:decoration-primary transition-colors py-4 px-8 md:p-0",
 							pathname === link
 								? "font-bold decoration-inherit"
 								: "decoration-transparent",
