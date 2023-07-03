@@ -12,7 +12,7 @@ export default function Navbar() {
 	return (
 		<nav className="flex flex-col md:flex-row justify-between items-stretch md:items-center py-4 md:px-8 text-slate-700">
 			<input type="checkbox" id="toggle" className="hidden peer" />
-			<div className="flex justify-between items-center px-8 mb-2">
+			<div className="flex justify-between items-center px-8 md:px-0 mb-2">
 				<a href="/" className="flex items-center gap-4">
 					<Logo />
 					<span className="font-bold font-accent text-lg">
@@ -23,7 +23,7 @@ export default function Navbar() {
 					<HamburgerMenuIcon />
 				</label>
 			</div>
-			<ul className="hidden peer-checked:flex md:flex flex-col md:flex-row shadow-sm border-y bg-white md:bg-transparent md:shadow-none md:border-none md:px-8 md:gap-8">
+			<ul className="hidden peer-checked:flex md:flex flex-col md:flex-row shadow-sm border-y bg-white md:bg-transparent md:shadow-none md:border-none md:gap-8">
 				{navLinks.map(({ link, title }) => (
 					<a
 						key={link}
