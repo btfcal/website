@@ -8,11 +8,8 @@ export default function Details({
 	children: React.ReactNode
 }) {
 	return (
-		<details className="group">
-			<summary className="flex items-center gap-2">
-				{summary}
-				<ChevronDownIcon />
-			</summary>
+		<details>
+			<summary>{summary}</summary>
 			{children}
 		</details>
 	)

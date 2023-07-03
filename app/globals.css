@@ -25,20 +25,20 @@
     prose-table:block prose-table:overflow-x-auto md:prose-img:rounded-lg;
 	}
 
-	.markdown summary {
-		@apply cursor-pointer list-none font-medium;
-	}
-
-	.markdown summary::-webkit-details-marker {
-		@apply hidden;
-	}
-
 	.markdown details {
-		@apply my-4 rounded-md border px-8 py-4;
+		@apply my-4;
+	}
+
+	.markdown summary {
+		@apply rounded-md border shadow-sm px-6 py-4 font-medium text-base cursor-pointer;
 	}
 
 	.markdown details[open] > summary {
 		@apply border-b pb-4 text-primary;
+	}
+
+	.markdown details[open] {
+		@apply border-b-2 border-dotted;
 	}
 }
 
