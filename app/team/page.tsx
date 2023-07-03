@@ -31,8 +31,8 @@ function People({
 			return 0
 		})
 		.map((person) => (
-			<div className="w-48" key={person.name}>
-				<div className="w-full relative h-48 mb-4">
+			<div className="w-28 md:w-48" key={person.name}>
+				<div className="w-full relative h-28 md:h-48 mb-4">
 					<Image
 						src={require(`@/public/images/team/${person.image}`)}
 						alt={`Picture of ${person.name}`}
