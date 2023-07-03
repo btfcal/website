@@ -30,9 +30,27 @@ function Photos() {
 	)
 }
 
+function Background() {
+	return (
+		<>
+			<div
+				style={{
+					backgroundColor: "rgba(255,255,255,0)",
+					backgroundImage:
+						"linear-gradient(#f0f4f8 1px, transparent 1px), linear-gradient(to right, #f0f4f8 1px, transparent 1px)",
+					backgroundSize: "80px 80px",
+				}}
+				className="absolute -z-10 inset-0"
+			/>
+			<div className="absolute -z-10 inset-0 bg-gradient-to-b from-transparent to-white" />
+		</>
+	)
+}
+
 export default function Home() {
 	return (
 		<main>
+			<Background />
 			<section className="container pt-12 px-8 mx-auto flex flex-col items-start sm:items-center sm:text-center">
 				<a
 					href="https://happy-lobster-238.notion.site/Patent-Pending-0349478eef8a40d4aedef068bd81bead"
