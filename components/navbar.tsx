@@ -19,7 +19,7 @@ export default function Navbar() {
 					</span>
 				</a>
 				<label htmlFor="toggle" className="cursor-pointer md:hidden">
-					<HamburgerMenuIcon />
+					<HamburgerMenuIcon className="h-6 w-6" />
 				</label>
 			</div>
 			<ul className="hidden peer-checked:flex md:flex flex-col md:flex-row shadow-sm border-y bg-white md:bg-transparent md:shadow-none md:border-none md:gap-8">
