@@ -8,7 +8,7 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col text-sm sm:text-base md:flex-row justify-between sm:items-center px-8 py-4 text-slate-700">
+		<nav className="flex flex-col md:flex-row justify-between sm:items-center px-8 py-4 text-slate-700">
 			<div>
 				<a href="/" className="flex items-center gap-4">
 					<Logo />
