@@ -10,9 +10,9 @@ export default function Navbar() {
 	const pathname = usePathname()
 
 	return (
-		<nav className="flex flex-col md:flex-row justify-between items-stretch md:items-center py-4 md:px-8 text-slate-700">
+		<nav className="flex flex-col md:flex-row justify-between items-stretch md:items-center md:px-8 text-slate-700">
 			<input type="checkbox" id="toggle" className="hidden peer" />
-			<div className="flex justify-between items-center px-8 md:px-0 mb-2">
+			<div className="flex justify-between items-center px-8 py-2 md:px-0">
 				<a href="/" className="flex items-center gap-4">
 					<Logo />
 					<span className="font-bold font-accent text-lg">
