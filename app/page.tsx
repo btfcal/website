@@ -110,6 +110,38 @@ export default function Home() {
 					</div>
 				</section>
 			</div>
+			<div className="relative z-10 border-t bg-slate-900 bg-[url(/images/berkeley-demo-day.png)] bg-cover px-8 py-24 text-slate-100">
+				<div className="absolute inset-0 -z-10 bg-black/10 backdrop-blur backdrop-filter"></div>
+				<section className="mx-auto max-w-3xl">
+					<div className="mb-8 flex flex-col items-baseline gap-2">
+						<h2 className="font-accent text-3xl font-bold text-white md:text-4xl">
+							Berkeley Demo Sessions
+						</h2>
+						<p className="text-2xl text-white/75">and Berkeley Demo Day</p>
+					</div>
+					<p className="max-w-lg text-lg">
+						Berkeley Demo Sessions will be a community of student creators who
+						come together to work on their passion projects every Sunday.
+					</p>
+					<p className="mt-4 max-w-lg text-lg">
+						Demo Sessions will be complemented by Berkeley Demo Day, a monthly
+						show-and-tell for passion projects.
+					</p>
+					<p className="mt-4 max-w-lg text-lg">
+						The best way to learn more for now is to check out the invite for
+						the first Berkeley Demo Day, which took place Sunday, April&nbsp;30:
+					</p>
+					<a
+						href="https://berkeleydemo.day"
+						className="mt-8 inline-block transform rounded-lg border border-slate-600 bg-slate-600/80 px-6 py-2 font-bold text-white shadow-sm transition-transform duration-500 hover:scale-105"
+					>
+						Learn more »
+					</a>
+					<p className="mt-4 max-w-lg">
+						Subscribe to the BTF newsletter below to stay updated!
+					</p>
+				</section>
+			</div>
 		</main>
 	)
 }
