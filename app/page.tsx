@@ -90,7 +90,7 @@ export default function Home() {
 					>
 						More on the series »
 					</a>
-					<p className="mb-4 font-medium text-slate-600">Featured Speakers</p>
+					<p className="mb-4 font-medium text-slate-600">Featured Guests</p>
 					<div className="grid grid-cols-1 gap-4 text-slate-800 sm:grid-cols-2 md:grid-cols-3">
 						{speakers.map((speaker) => (
 							<div key={speaker.name} className="flex items-center gap-4">

@@ -11,7 +11,7 @@ How to Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.ed
 
 ## Format
 
-We give speakers the flexibility to share their stories and advice in whatever format they choose, so each session is unique. But generally, there’s a 15 minute fireside chat for the guest to share their journey followed by a freeform conversation with the class.
+We give guests the flexibility to share their stories and advice in whatever format they choose, so each session is unique. But generally, there’s a 15 minute fireside chat for the guest to share their journey followed by a freeform conversation with the class.
 
 Classes aren’t recorded, which we’ve found encourages guests to be more candid and students to be more engaged.
 
