@@ -11,24 +11,18 @@ function Photos() {
 			<Image
 				src={withDelian}
 				alt="Picture of the class with Delian Asparouhov"
-				width="2048"
-				height="1536"
 				placeholder="blur"
 				className="rounded-lg shadow-xl w-96 h-48 object-cover -rotate-6 transform translate-y-8 hidden lg:block"
 			/>
 			<Image
 				src={decal}
 				alt="Picture of students in a classroom with a guest speaker in front of them"
-				width="1116"
-				height="624"
 				placeholder="blur"
 				className="rounded-lg shadow-xl w-96 h-48 object-cover -rotate-1 transform translate-y-8 hidden sm:block"
 			/>
 			<Image
 				src={basesCollab}
 				alt="Picture of a group of students working together in a coworking space"
-				width="2048"
-				height="1536"
 				placeholder="blur"
 				className="rounded-lg shadow-xl w-96 h-48 object-cover rotate-2 transform translate-y-8"
 			/>
