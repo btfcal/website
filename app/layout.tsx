@@ -6,6 +6,7 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
 	title: "Build the Future",
 	description: "UC Berkeley’s student-run entrepreneurship hub.",
+	metadataBase: new URL("https://thefuture.build"),
 }
 
 export default function RootLayout({
