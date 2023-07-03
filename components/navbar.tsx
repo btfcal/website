@@ -11,7 +11,7 @@ export default function Navbar() {
 	return (
 		<nav className="flex flex-col md:flex-row justify-between items-stretch md:items-center md:px-8 text-slate-700">
 			<input type="checkbox" id="toggle" className="hidden peer" />
-			<div className="flex justify-between items-center px-8 py-2 md:px-0">
+			<div className="flex justify-between items-center p-8 md:px-0">
 				<a href="/" className="flex items-center gap-4">
 					<Logo />
 					<span className="font-bold font-accent text-lg">
