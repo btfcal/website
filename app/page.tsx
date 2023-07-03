@@ -63,12 +63,8 @@ export default function Home() {
 					<span className="text-primary shiny">entrepreneurship hub</span>.
 				</h1>
 				<p className="mt-8 text-slate-600 text-lg sm:text-xl mb-12 max-w-[45ch]">
-					Build the Future is a{" "}
-					<a className="link" href="/decal/">
-						weekly speaker series
-					</a>
-					, a community, and a team on a mission to transform entrepreneurship
-					at Berkeley.
+					Build the Future is a weekly speaker series, a community, and a team
+					on a mission to transform entrepreneurship at Berkeley.
 				</p>
 				<Subscribe />
 				<Photos />
