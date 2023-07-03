@@ -62,7 +62,7 @@ export default function Home() {
 				>
 					Join our coworking community! »
 				</a>
-				<h1 className="title mt-8 text-slate-800">
+				<h1 className="title mt-8 text-slate-800 md:text-5xl">
 					UC&nbsp;Berkeley’s student-run{" "}
 					<span className="shiny text-primary">entrepreneurship hub</span>.
 				</h1>

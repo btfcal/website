@@ -1,11 +1,11 @@
 ---
-title: DeCal
+title: How to Build the Future
 description: 1 founder. 30 students. Every week.
 semester: Fall 2023
 application_url: null
 ---
 
-Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.edu/about/decal-program) that hosts founders, investors, and innovators for intimate, no-bullshit conversations that inspire students to build companies.
+How to Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.edu/about/decal-program) that hosts founders, investors, and innovators for intimate, no-bullshit conversations that inspire students to build companies.
 
 {% figure src="/images/decal/with-ev.jpg" title="A class with Ev Williams, co-founder of Twitter and Medium." /%}
 
