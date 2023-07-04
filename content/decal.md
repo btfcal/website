@@ -98,19 +98,38 @@ Berkeley EECS News {% class="text-sm" %}
 | Tracy Sun           | Poshmark                        | Fall 2019   |
 | Nicole Quinn        | Lightspeed                      | Fall 2019   |
 | Tina Sharkey        | Brandless                       | Fall 2019   |
-| Cameron Baradar     | The House                       | Spring 2018 |
-| Pamela Webber       | 99designs                       | Spring 2018 |
-| Ben Herman          | Jumpstart                       | Spring 2018 |
-| Liz Klinger         | Lioness Health                  | Spring 2018 |
-| Angie Carillo       | Higia Technologies              | Spring 2018 |
-| Karen Taylor        | Onederful                       | Spring 2018 |
-| Lynn Perkins        | UrbanSitter                     | Spring 2018 |
-| Joel Flory          | VSCO                            | Spring 2018 |
-| David Cramer        | Sentry                          | Spring 2018 |
-| Preston Silverman   | RaiseMe                         | Spring 2018 |
-| George Mathew       | Kespry                          | Spring 2018 |
-| Paul Coletta        | Urban Remedy                    | Spring 2018 |
-| Pejman Nozad        | Pear VC                         | Spring 2018 |
+| Cameron Baradar     | The House                       | Spring 2019 |
+| Pamela Webber       | 99designs                       | Spring 2019 |
+| Ben Herman          | Jumpstart                       | Spring 2019 |
+| Liz Klinger         | Lioness Health                  | Spring 2019 |
+| Angie Carillo       | Higia Technologies              | Spring 2019 |
+| Karen Taylor        | Onederful                       | Spring 2019 |
+| Lynn Perkins        | UrbanSitter                     | Spring 2019 |
+| Joel Flory          | VSCO                            | Spring 2019 |
+| David Cramer        | Sentry                          | Spring 2019 |
+| Preston Silverman   | RaiseMe                         | Spring 2019 |
+| George Mathew       | Kespry                          | Spring 2019 |
+| Paul Coletta        | Urban Remedy                    | Spring 2019 |
+| Pejman Nozad        | Pear VC                         | Spring 2019 |
+| Elizabeth Iorns     | Science Exchange, YC            | Fall 2018   |
+| Matthew Prince      | CloudFlare                      | Fall 2018   |
+| Nagraj Kashyap      | Microsoft Ventures              | Fall 2018   |
+| Andrew Kortina      | Venmo                           | Fall 2018   |
+| Patrick Lee         | Hobo Labs, Rotten Tomatoes      | Fall 2018   |
+| Ben Herman          | Jumpstart                       | Fall 2018   |
+| Evan Spiegel        | Snap Inc.                       | Fall 2018   |
+| Chad Rigetti        | Rigetti Quantum Computing       | Fall 2018   |
+| Jeremy Blalock      | Proton App                      | Spring 2018 |
+| Richard Henrikson   | Ongo Science                    | Spring 2018 |
+| Abboud Chaballout   | Diagnoss                        | Spring 2018 |
+| James Crawford      | Orbital Insight                 | Spring 2018 |
+| Linden Tibbets      | IFTTT                           | Spring 2018 |
+| Jini Kim            | Nuna Health                     | Spring 2018 |
+| Marshawn Lynch      | NFL, Beast Mode                 | Spring 2018 |
+| Erin Wade           | Homeroom                        | Spring 2018 |
+| Patrick Collison    | Stripe                          | Spring 2018 |
+| Sarah Guo           | Greylock VC                     | Spring 2018 |
+| Michael Seibel      | Y Combinator                    | Spring 2018 |
 | Jeremy Fiance       | The House                       | Fall 2017   |
 | Hriday Kemburu      | Wildfire                        | Fall 2017   |
 | Sonia Sharma        | Orb                             | Fall 2017   |

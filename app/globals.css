@@ -30,7 +30,7 @@
 	}
 
 	.markdown summary {
-		@apply rounded-md border shadow-sm px-6 py-4 font-medium text-base cursor-pointer;
+		@apply cursor-pointer rounded-md border px-6 py-4 text-base font-medium shadow-sm;
 	}
 
 	.markdown details[open] > summary {
