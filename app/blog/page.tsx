@@ -19,9 +19,11 @@ function getPosts() {
 		}
 	})
 
-	return posts.sort((a, b) => {
-		return b.data.date - a.data.date
-	})
+	return posts
+		.filter((post) => !post.data.hidden)
+		.sort((a, b) => {
+			return b.data.date - a.data.date
+		})
 }
 
 export default function Blog() {
