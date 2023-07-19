@@ -1,9 +1,15 @@
 import Container from "@/components/container"
 import { formatDate, getMarkdocContent } from "@/markdoc/content"
+import { notFound } from "next/navigation"
 import path from "path"
 
 export default async function Post({ params }: { params: { slug: string } }) {
-	const { jsx, data } = await getMarkdocContent(path.join("blog", params.slug))
+	let jsx, data
+	try {
+		;({ jsx, data } = await getMarkdocContent(path.join("blog", params.slug)))
+	} catch {
+		notFound()
+	}
 
 	return (
 		<Container className="markdown max-w-screen-md">
