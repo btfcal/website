@@ -15,7 +15,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
 		<Container className="markdown max-w-screen-md">
 			<h1 className="!mb-2 !text-4xl">{data.title}</h1>
 			<p className="!mb-12 text-base text-slate-600">
-				Published {formatDate(data.date)}
+				Published {formatDate(data.date)} {data.author && `by ${data.author}`}
 			</p>
 			{jsx}
 		</Container>
