@@ -1,6 +1,7 @@
 ---
 title: "Cal Hacks"
 author: Vedika Dayal
+hidden: true
 ---
 
 In this article, we’re learning more about [Cal Hacks](https://calhacks.io/), a club that hosts the largest collegiate hackathon in the world. Cal Hacks also runs other events designed to promote hacking and entrepreneurship, like a fellowship for hackathon teams and a full-stack development course for new coders.

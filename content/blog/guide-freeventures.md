@@ -1,6 +1,7 @@
 ---
 title: "Free Ventures"
 author: "Sauhard Jain"
+hidden: true
 ---
 
 Free Ventures is a student-run pre-seed startup accelerator. Each semester, they accept a small cohort of Cal student founders and help them grow to the next level by providing them access to funding, mentorship, and other resources. Their portfolio companies have secured over $140 million in follow-up funding from industry-leading investors like Kleiner Perkins, Greylock and YCombinator.

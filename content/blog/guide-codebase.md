@@ -1,6 +1,7 @@
 ---
 title: "Codebase"
 author: Vedika Dayal
+hidden: true
 ---
 
 This article is a deep dive into [Codebase](https://codebase.berkeley.edu/), a student org that aims to make the software industry more accessible by bridging the gap between classes and practical experience. Every semester, they build projects for non-profits and high growth tech companies, empowering students to work with real industry clients. They’ve partnered with a range of companies, from growing startups like Nuro and Ginger to clients as large as Atlassian, as well as local nonprofits like the Berkeley Food Pantry.
