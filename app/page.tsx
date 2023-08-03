@@ -58,7 +58,7 @@ export default function Home() {
 			>
 				<a
 					href="https://happy-lobster-238.notion.site/Patent-Pending-0349478eef8a40d4aedef068bd81bead"
-					className="transform whitespace-nowrap rounded-full bg-accent px-4 py-1 text-sm font-bold text-slate-700 transition-all duration-500 hover:translate-x-2"
+					className="transform whitespace-nowrap rounded-full bg-accent px-4 py-1 text-sm font-bold text-slate-700 transition-transform duration-500 hover:translate-x-2"
 				>
 					Join our coworking community! »
 				</a>
