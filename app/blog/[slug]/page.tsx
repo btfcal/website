@@ -2,6 +2,11 @@ import Container from "@/components/container"
 import { formatDate, getMarkdocContent } from "@/markdoc/content"
 import { notFound } from "next/navigation"
 import path from "path"
+import getPosts from "../get-posts"
+
+export async function generateStaticParams() {
+	return getPosts()
+}
 
 export default async function Post({ params }: { params: { slug: string } }) {
 	let jsx, data

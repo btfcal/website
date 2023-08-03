@@ -1,33 +1,13 @@
-import fs from "fs"
-import path from "path"
-import matter from "gray-matter"
-import { CONTENT_DIR, formatDate } from "@/markdoc/content"
+import { formatDate } from "@/markdoc/content"
 import Container from "@/components/container"
+import getPosts from "./get-posts"
 
-function getPosts() {
-	const fileNames = fs.readdirSync(path.join(CONTENT_DIR, "blog"))
-	const posts = fileNames.map((fileName) => {
-		const slug = fileName.replace(".md", "")
-		const fullPath = path.join(CONTENT_DIR, "blog", fileName)
-		const fileContents = fs.readFileSync(fullPath, "utf8")
-
-		const { data } = matter(fileContents)
-
-		return {
-			slug,
-			data,
-		}
-	})
-
-	return posts
+export default function Blog() {
+	const posts = getPosts()
 		.filter((post) => !post.data.hidden)
 		.sort((a, b) => {
 			return b.data.date - a.data.date
 		})
-}
-
-export default function Blog() {
-	const posts = getPosts()
 
 	return (
 		<Container className="flex max-w-screen-md flex-col">
