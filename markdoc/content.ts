@@ -8,7 +8,7 @@ import Figure, { figure } from "./schema/Figure.markdoc"
 
 export const CONTENT_DIR = path.join(process.cwd(), "content")
 
-export async function formatDate(date: Date) {
+export function formatDate(date: Date) {
 	return Intl.DateTimeFormat("en-US", {
 		year: "numeric",
 		month: "long",
