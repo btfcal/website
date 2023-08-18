@@ -4,6 +4,7 @@ import Image from "next/image"
 import withDelian from "@/public/images/decal/with-delian.jpg"
 import decal from "@/public/images/decal/decal.png"
 import basesCollab from "@/public/images/coworking/bases-collab.jpg"
+import theHouseFund from "@/public/images/sponsors/thehouse.svg"
 import Container from "@/components/container"
 
 function Photos() {
@@ -73,6 +74,12 @@ export default function Home() {
 				<Subscribe />
 				<Photos />
 			</Container>
+			<div className="z-10 border-t bg-white p-8">
+				<section className="mx-auto flex max-w-3xl flex-col gap-4 sm:flex-row sm:items-center">
+					<span className="text-slate-500">Sponsored by</span>
+					<Image src={theHouseFund} alt="The House Fund logo" />
+				</section>
+			</div>
 			<div className="z-10 border-t bg-white px-8 py-24">
 				<section className="mx-auto max-w-3xl">
 					<div className="mb-8 flex flex-col items-baseline gap-2 md:mb-4 md:flex-row md:gap-4">
