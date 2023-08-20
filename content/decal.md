@@ -11,6 +11,8 @@ How to Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.ed
 
 ## Format
 
+Startups are mired in uncertainty. Building one is an experience of feeling your way through the dark—relying on rules of thumb, advice, and instincts to do the right thing at the right time. In Build the Future, students learn how to navigate this uncertainty by hearing from founders who’ve done it before.
+
 We give guests the flexibility to share their stories and advice in whatever format they choose, so each session is unique. But generally, there’s a 15 minute fireside chat for the guest to share their journey followed by a freeform conversation with the class.
 
 Classes aren’t recorded, which we’ve found encourages guests to be more candid and students to be more engaged.
