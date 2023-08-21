@@ -3,6 +3,7 @@ title: How to Build the Future
 description: 1 founder. 30 students. Every week.
 semester: Fall 2023
 application_url: https://forms.gle/6aRH4dsSS4SVhgJ89
+application_deadline: September 3, 11:59 PM PT
 ---
 
 How to Build the Future (UGBA 198) is a 2-unit [DeCal](https://decal.berkeley.edu/about/decal-program) that hosts founders, investors, and innovators for intimate, no-bullshit conversations that inspire students to build companies.
