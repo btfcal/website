@@ -6,6 +6,7 @@ import decal from "@/public/images/decal/decal.png"
 import basesCollab from "@/public/images/coworking/bases-collab.jpg"
 import theHouseFund from "@/public/images/sponsors/thehouse.svg"
 import Container from "@/components/container"
+import Link from "next/link"
 
 function Photos() {
 	return (
@@ -57,12 +58,12 @@ export default function Home() {
 				as="section"
 				className="flex flex-col items-start pb-0 sm:items-center sm:text-center"
 			>
-				<a
-					href="https://happy-lobster-238.notion.site/Patent-Pending-0349478eef8a40d4aedef068bd81bead"
+				<Link
+					href="/decal"
 					className="transform whitespace-nowrap rounded-full bg-accent px-4 py-1 text-sm font-bold text-slate-700 transition-transform duration-500 hover:translate-x-2"
 				>
-					Join our coworking community! »
-				</a>
+					Apply to the Fall &apos;23 DeCal! »
+				</Link>
 				<h1 className="title mt-8 text-slate-800 md:text-5xl">
 					UC&nbsp;Berkeley’s student-run{" "}
 					<span className="shiny text-primary">entrepreneurship hub</span>.
