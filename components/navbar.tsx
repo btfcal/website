@@ -27,7 +27,7 @@ export default function Navbar() {
 					<li key={link}>
 						<a
 							className={clsx(
-								"rounded-lg px-8 py-4 transition-colors hover:text-primary md:px-4 md:py-2",
+								"block px-8 py-4 transition-colors hover:text-primary md:rounded-lg md:px-4 md:py-2",
 								pathname === link ? "bg-slate-100 font-bold" : "",
 							)}
 							href={link}
