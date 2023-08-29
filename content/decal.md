@@ -40,7 +40,7 @@ Berkeley News {% class="text-sm" %}
 
 Berkeley EECS News {% class="text-sm" %}
 
-## Past Guests
+## Past Guests {% id="past-guests" %}
 
 | Name                | Company                         | Semester    |
 | ------------------- | ------------------------------- | ----------- |
