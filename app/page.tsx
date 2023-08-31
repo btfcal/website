@@ -64,9 +64,9 @@ export default function Home() {
 				>
 					Apply to the Fall &apos;23 DeCal! »
 				</Link>
-				<h1 className="title mt-8 text-slate-800 md:text-5xl">
-					UC&nbsp;Berkeley’s student-run{" "}
-					<span className="shiny text-primary">entrepreneurship hub</span>.
+				<h1 className="mt-8 max-w-xl font-accent text-4xl font-bold !leading-[1.15] text-slate-800 md:text-6xl">
+					Where Berkeley’s{" "}
+					<span className="shiny text-primary">builders go</span> 🏡
 				</h1>
 				<p className="mb-12 mt-8 max-w-[45ch] text-lg text-slate-600 sm:text-xl">
 					Build the Future is a weekly speaker series, a community, and a team
