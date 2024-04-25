@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Catherine Zhao",
+		"class": "23",
+		"major": "CS and Business Administration",
+		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
+		"twitter": "https://twitter.com/catherineyzhao",
+		"email": "catherinezhao@berkeley.edu",
+		"image": "cat.jpeg"
+	},
+	{
 		"name": "Vedika Dayal",
 		"class": "23",
 		"major": "Product @ Zynga",
@@ -7,15 +16,6 @@
 		"twitter": "https://twitter.com/vedikasworld",
 		"email": "vedikadayal@berkeley.edu",
 		"image": "vedika.png"
-	},
-	{
-		"name": "Karen Tseng",
-		"class": "24",
-		"major": "Business Administration, Cognitive Science",
-		"linkedin": "https://www.linkedin.com/in/yun-jung-tseng/",
-		"twitter": "https://twitter.com/kar3ntseng",
-		"email": "yunjungtseng@berkeley.edu",
-		"image": "karen.jpg"
 	},
 	{
 		"name": "Divyansh Saksena",

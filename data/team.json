@@ -9,22 +9,22 @@
 		"image": "sauhard.jpg"
 	},
 	{
+		"name": "Karen Tseng",
+		"class": "24",
+		"major": "Business Administration, Cognitive Science",
+		"linkedin": "https://www.linkedin.com/in/yun-jung-tseng/",
+		"twitter": "https://twitter.com/kar3ntseng",
+		"email": "yunjungtseng@berkeley.edu",
+		"image": "karen.jpg"
+	},
+	{
 		"name": "Natasha Arya",
-		"class": "25",
+		"class": "24",
 		"major": "CS",
 		"linkedin": "https://www.linkedin.com/in/natashaarya/",
 		"twitter": "https://twitter.com/natashaarya_",
 		"email": "natashaarya@berkeley.edu",
 		"image": "natasha.jpeg"
-	},
-	{
-		"name": "Catherine Zhao",
-		"class": "23",
-		"major": "CS and Business Administration",
-		"linkedin": "https://www.linkedin.com/in/zhao-catherine/",
-		"twitter": "https://twitter.com/catherineyzhao",
-		"email": "catherinezhao@berkeley.edu",
-		"image": "cat.jpeg"
 	},
 	{
 		"name": "Kabir Goel",
