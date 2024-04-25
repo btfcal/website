@@ -59,10 +59,10 @@ export default function Home() {
 				className="flex flex-col items-start pb-0 sm:items-center sm:text-center"
 			>
 				<Link
-					href="/decal"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSf0WFrcUaEn0vsTXi1UjYWwn2ITww5tDyc-ElQ3zl6Pb3Cfdg/viewform?usp=sf_link"
 					className="transform whitespace-nowrap rounded-full bg-accent px-4 py-1 text-sm font-bold text-slate-700 transition-transform duration-500 hover:translate-x-2"
 				>
-					Apply to the Fall &apos;23 DeCal! »
+					Apply to join our team! »
 				</Link>
 				<h1 className="mt-8 max-w-xl font-accent text-4xl font-bold !leading-[1.15] text-slate-800 md:text-6xl">
 					Where Berkeley’s{" "}
